@@ -18,4 +18,4 @@ Browser based tools
  - Languages: HTML, CSS, JavaScript
 
 <h1>Engineering Calculator Tool</h1>
-![Screenshot of the Engineering Calculator](EngineeringCalculator.png)
+![Screenshot of the Engineering Calculator](./EngineeringCalculator.png)
