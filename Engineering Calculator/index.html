@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function resizeWindow() {
+            const calculator = document.querySelector('.calculator');
+            const width = calculator.offsetWidth;
+            const height = calculator.offsetHeight;
+            window.resizeTo(width, height);
+        }
+
+        window.addEventListener('load', resizeWindow);
+    </script>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="label">
+            <h1>Engineering Calculator: Engineering Tools</h1>
+        </div>
+
+        <div class="display">
+            <input type="text" readonly>
+        </div>
+
+        <div class="buttons">
+            <button title="Memory Clear">MC</button>
+            <button title="Memory Recall">MR</button>
+            <button title="Memory Add">M+</button>
+            <button title="Memory Subtract">M-</button>
+            <button title="Memory Save">MS</button>
+            
+            <button class="shift-button" title="Shift">SHIFT</button>
+            <button title="Pi">π</button>
+            <button title="Euler's Number">e</button>
+            <button title="Natural Logarithm">ln</button>
+            <button title="Delete last entry">DEL</button>
+
+            <button title="Hexadecimal">HEX</button>
+            <button title="Decimal">DEC</button>
+            <button title="Octal">OCT</button>
+            <button title="Binary">BIN</button>
+            <button title="Boltzmann's Constant">k</button>
+
+            <button title="Degrees/Radians">DEG</button>
+            <button title="Sine">SIN</button>
+            <button title="Cosine">COS</button>
+            <button title="Tangent">TAN</button>
+            <button title="Speed of Light">C</button>
+
+            <button title="2 to the power of x">2^x</button>
+            <button title="Hyperbolic Sine">SINH</button>
+            <button title="Hyperbolic Cosine">COSH</button>
+            <button title="Hyperbolic Tangent">TANH</button>
+            <button title="e to the power of x">e^x</button>
+
+            <button title="Square">x^2</button>
+            <button title="Reciprocal">1/x</button>
+            <button title="Absolute Value">|x|</button>
+            <button title="Exponential">exp</button>
+            <button title="Modulus">mod</button>
+
+            <button title="Square Root">√x</button>
+            <button title="Left Parenthesis">(</button>
+            <button title="Right Parenthesis">)</button>
+            <button title="Factorial">n!</button>
+            <button title="Division">/</button>
+
+            <button title="Power">x^y</button>
+            <button title="Number 7">7</button>
+            <button title="Number 8">8</button>
+            <button title="Number 9">9</button>
+            <button title="Multiplication">*</button>
+
+            <button title="10 to the power of x">10^x</button>
+            <button title="Number 4">4</button>
+            <button title="Number 5">5</button>
+            <button title="Number 6">6</button>
+            <button title="Subtraction">-</button>
+
+            <button title="Logarithm">log</button>
+            <button title="Number 1">1</button>
+            <button title="Number 2">2</button>
+            <button title="Number 3">3</button>
+            <button title="Addition">+</button>
+
+            <button title="Clear">CLR</button>
+            <button title="Change Sign">+/-</button>
+            <button title="Number 0">0</button>
+            <button title="Decimal Point">.</button>
+            <button title="Equals">=</button>
+        </div>
+    </div>
+
+    <script src="src/script.js"></script>
+</body>
+</html>
