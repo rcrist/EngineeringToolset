@@ -1,7 +1,7 @@
 # EngineeringTools
 
 Goals:
- - Engineering Calculator Tool
+ -  [ ] Engineering Calculator Tool
  - Diagram Tool
  - Digital Tool
  - Analog Tool
