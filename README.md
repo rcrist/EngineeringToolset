@@ -21,6 +21,6 @@ Usage:
 
 ![Screenshot](EngineeringCalculator.png)
 
-<h1>Digital Calculator Tool</h1>
+<h1>Digital Tool</h1>
 
 ![Screenshot](DigitalTool.png)
