@@ -19,7 +19,7 @@ Usage:
 
 <h1>Engineering Calculator Tool</h1>
 
-![Screenshot](EngineeringCalculator.png)
+![Screenshot](Images/EngineeringCalculator.png)
 
 <h1>Digital Tool</h1>
 
