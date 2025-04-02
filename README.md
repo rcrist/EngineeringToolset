@@ -1,16 +1,11 @@
-# EngineeringTools
+# Engineering Tools
 
 Goals:
  -  [X] Engineering Calculator Tool
  - Diagram Tool
- - Digital Tool
+ -  [X] Digital Tool
  - Analog Tool
  - RF & Microwave Tool
- - System Tool
-
-Other potential tools:
- - Optical Tool
- - Mechanical Tool
 
 Browser based tools
  - IDE: VSCode
@@ -18,9 +13,14 @@ Browser based tools
  - Languages: HTML, CSS, JavaScript
 
 Usage:
-Download the tool directory.
-Click on the index.html file to run the tool in your browser.
+ - Download the tool directory
+ - Run npm install
+ - Click on the index.html file to run the tool in your browser
 
 <h1>Engineering Calculator Tool</h1>
 
 ![Screenshot](EngineeringCalculator.png)
+
+<h1>Digital Calculator Tool</h1>
+
+![Screenshot](DigitalTool.png)
