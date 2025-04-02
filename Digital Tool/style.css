@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+#menu-bar {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#menu-bar label {
+    margin-right: 10px;
+}
+
+#menu-bar button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+#menu-bar button:hover {
+    background-color: #555;
+}
+
+#main-content {
+    display: flex;
+    flex-grow: 1;
+    height: 100vh;
+}
+
+#button-frame {
+    height: 100vh;
+    min-width: 150px;
+    overflow-y: auto;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Stack button groups vertically */
+    gap: 0px; /* Space between buttons */
+    padding: 0px;
+    box-sizing: border-box;
+    align-items: flex-start; /* Align all elements to the top */
+}
+
+.button-group {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns for buttons */
+    gap: 5px; /* Space between buttons */
+    padding: 5px;
+    text-align: center;
+}
+
+.button-group h3 {
+    grid-column: span 3; /* Make the heading span all 3 columns */
+    margin: 0px;
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px; /* Adjust font size if needed */
+    color: white; /* Ensure the heading is visible */
+}
+
+.button-group button {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack image and text vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    background-color: #444; /* Set background color */
+    text-align: center; /* Center-align text */
+    font-size: 10px; /* Adjust font size if needed */
+    color: white; /* Set text color */
+    border: none; /* Remove default button border */
+    cursor: pointer;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.button-group button img {
+    width: 32px; /* Adjust size as needed */
+    height: 32px;
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.button-group button:hover img {
+    transform: scale(1.1); /* Add hover effect */
+}
+
+#canvas-container {
+    flex-grow: 1;
+    display: flex; /* Use flexbox to align the canvas */
+    justify-content: flex-start; /* Align canvas to the left */
+    align-items: flex-start; /* Align canvas to the top */
+}
+
+#canvas1 {
+    background-color: black;
+    width: 100%; /* Adjust width as needed */
+    height: 100%; /* Adjust height as needed */
+}

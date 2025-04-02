@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" href="images/and-gate.png" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Tool 4</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="menu-bar">
+    <div>
+      <label><input type="radio" id="edit-mode" name="mode" value="edit" checked>Edit Mode</label>
+      <label><input type="radio" id="simulate-mode" name="mode" value="simulate">Simulate Mode</label>
+      <button id="save">Save</button>
+      <button id="load">Load</button>
+    </div>
+  </div>
+  <div id="main-content">
+    <div id="button-frame">
+      <!-- Components Group -->
+      <div class="button-group" id="components-group">
+        <h3>Components</h3>
+        <button id="andButton" title="Add AND Gate"><img src="images/and-gate.png" alt="AND Gate"></button>
+        <button id="orButton" title="Add OR Gate"><img src="images/or-gate.png" alt="OR Gate"></button>
+        <button id="notButton" title="Add NOT Gate"><img src="images/not-gate.png" alt="NOT Gate"></button>
+        <button id="nandButton" title="Add NAND Gate"><img src="images/nand-gate.png" alt="NAND Gate"></button>
+        <button id="norButton" title="Add NOR Gate"><img src="images/nor-gate.png" alt="NOR Gate"></button>
+        <button id="xorButton" title="Add XOR Gate"><img src="images/xor-gate.png" alt="XOR Gate"></button>
+        <button id="xnorButton" title="Add XNOR Gate"><img src="images/xnor-gate.png" alt="XNOR Gate"></button>
+      </div>
+
+      <!-- Switches Group -->
+      <div class="button-group" id="switches-group">
+        <h3>Switches</h3>
+        <button id="swButton" title="Add Switch"><img src="images/switch.png" alt="Switch"></button>
+        <button id="swbarButton" title="Add Switch Bar"><img src="images/switch-bar.png" alt="Switch Bar"></button>
+        <button id="clockButton" title="Add Clock"><img src="images/square-wave.png" alt="Clock"></button>
+      </div>
+
+      <!-- Displays Group -->
+      <div class="button-group" id="displays-group">
+        <h3>Displays</h3>
+        <button id="ledButton" title="Add LED"><img src="images/led.png" alt="LED"></button>
+        <button id="sevensegButton" title="Add Seven Segment"><img src="images/seven-segment.png"
+            alt="Seven Segment"></button>
+        <button id="ledbarButton" title="Add LED Bar"><img src="images/led-bar.png" alt="LED Bar"></button>
+      </div>
+
+      <!-- Circuit Library Group -->
+      <div class="button-group" id="circuit-library-group">
+        <h3>Circuit Library</h3>
+        <button id="sn7400Button" title="Add SN7400 IC"><img src="images/integrated-circuit-white.png"
+            alt="SN7400 IC">SN7400</button>
+        <button id="sn74161Button" title="Add SN74161 IC"><img src="images/integrated-circuit-white.png"
+            alt="SN7400 IC">SN74161</button>
+        <button id="eepromButton" title="Add EEPROM_28C16 IC"><img src="images/integrated-circuit-white.png"
+            alt="28C16 IC">28C16</button>
+      </div>
+    </div>
+
+    <div id="canvas-container">
+      <canvas id="canvas1"></canvas>
+    </div>
+  </div>
+
+  <!-- Gates -->
+  <img id="and-image" src="images/and-gate.png">
+  <img id="or-image" src="images/or-gate.png">
+  <img id="nand-image" src="images/nand-gate.png">
+  <img id="nor-image" src="images/nor-gate.png">
+  <img id="not-image" src="images/not-gate.png">
+  <img id="xor-image" src="images/xor-gate.png">
+  <img id="xnor-image" src="images/xnor-gate.png">
+
+  <!-- Displays -->
+  <img id="led-image" src="images/led.png">
+
+  <!-- Ports -->
+  <img id="inport-image" src="images/input-port.png">
+  <img id="outport-image" src="images/output-port.png">
+
+  <!-- Switches -->
+  <img id="switchbar-image" src="images/switch-bar.png">
+  <img id="clock-image" src="images/square-wave.png">
+
+  <script type="module" src="src/main.js"></script>
+</body>
+
+</html>
