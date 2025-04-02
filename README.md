@@ -23,4 +23,4 @@ Usage:
 
 <h1>Digital Tool</h1>
 
-![Screenshot](EngineeringCalculator.png)
+![Screenshot](DigitalTool.png)
