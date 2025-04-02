@@ -1,0 +1,582 @@
+{
+  "components": [
+    {
+      "type": "SN74161",
+      "x": 420,
+      "y": 260,
+      "color": null,
+      "additionalData": {}
+    },
+    {
+      "type": "EEPROM_28C16",
+      "x": 750,
+      "y": 270,
+      "color": null,
+      "additionalData": {}
+    },
+    {
+      "type": "SevenSegment",
+      "x": 1030,
+      "y": 280,
+      "color": "red",
+      "additionalData": {}
+    },
+    {
+      "type": "Switch",
+      "x": 560,
+      "y": 210,
+      "color": null,
+      "additionalData": {}
+    },
+    {
+      "type": "Switch",
+      "x": 120,
+      "y": 190,
+      "color": null,
+      "additionalData": {}
+    },
+    {
+      "type": "Clock",
+      "x": 120,
+      "y": 230,
+      "color": null,
+      "additionalData": {}
+    },
+    {
+      "type": "SwitchBar",
+      "x": 90,
+      "y": 300,
+      "color": null,
+      "additionalData": {
+        "numSwitches": 4
+      }
+    },
+    {
+      "type": "Switch",
+      "x": 120,
+      "y": 390,
+      "color": null,
+      "additionalData": {}
+    },
+    {
+      "type": "Switch",
+      "x": 120,
+      "y": 420,
+      "color": null,
+      "additionalData": {}
+    },
+    {
+      "type": "Switch",
+      "x": 120,
+      "y": 480,
+      "color": null,
+      "additionalData": {}
+    },
+    {
+      "type": "LED",
+      "x": 510,
+      "y": 150,
+      "color": "yellow",
+      "additionalData": {}
+    },
+    {
+      "type": "Switch",
+      "x": 790,
+      "y": 220,
+      "color": null,
+      "additionalData": {}
+    },
+    {
+      "type": "Switch",
+      "x": 790,
+      "y": 180,
+      "color": null,
+      "additionalData": {}
+    }
+  ],
+  "wires": [
+    {
+      "startX": 500,
+      "startY": 350,
+      "endX": 500,
+      "endY": 350,
+      "color": "white"
+    },
+    {
+      "startX": 500,
+      "startY": 340,
+      "endX": 750,
+      "endY": 340,
+      "color": "white"
+    },
+    {
+      "startX": 500,
+      "startY": 330,
+      "endX": 580,
+      "endY": 330,
+      "color": "white"
+    },
+    {
+      "startX": 580,
+      "startY": 330,
+      "endX": 580,
+      "endY": 350,
+      "color": "white"
+    },
+    {
+      "startX": 580,
+      "startY": 350,
+      "endX": 750,
+      "endY": 350,
+      "color": "white"
+    },
+    {
+      "startX": 500,
+      "startY": 320,
+      "endX": 590,
+      "endY": 320,
+      "color": "white"
+    },
+    {
+      "startX": 590,
+      "startY": 320,
+      "endX": 590,
+      "endY": 360,
+      "color": "white"
+    },
+    {
+      "startX": 590,
+      "startY": 360,
+      "endX": 750,
+      "endY": 360,
+      "color": "white"
+    },
+    {
+      "startX": 500,
+      "startY": 310,
+      "endX": 600,
+      "endY": 310,
+      "color": "white"
+    },
+    {
+      "startX": 600,
+      "startY": 310,
+      "endX": 600,
+      "endY": 370,
+      "color": "white"
+    },
+    {
+      "startX": 600,
+      "startY": 370,
+      "endX": 750,
+      "endY": 370,
+      "color": "white"
+    },
+    {
+      "startX": 600,
+      "startY": 220,
+      "endX": 670,
+      "endY": 220,
+      "color": "white"
+    },
+    {
+      "startX": 670,
+      "startY": 220,
+      "endX": 670,
+      "endY": 330,
+      "color": "white"
+    },
+    {
+      "startX": 670,
+      "startY": 330,
+      "endX": 750,
+      "endY": 330,
+      "color": "white"
+    },
+    {
+      "startX": 150,
+      "startY": 310,
+      "endX": 420,
+      "endY": 310,
+      "color": "white"
+    },
+    {
+      "startX": 150,
+      "startY": 320,
+      "endX": 420,
+      "endY": 320,
+      "color": "white"
+    },
+    {
+      "startX": 150,
+      "startY": 330,
+      "endX": 420,
+      "endY": 330,
+      "color": "white"
+    },
+    {
+      "startX": 150,
+      "startY": 340,
+      "endX": 420,
+      "endY": 340,
+      "color": "white"
+    },
+    {
+      "startX": 160,
+      "startY": 250,
+      "endX": 240,
+      "endY": 250,
+      "color": "white"
+    },
+    {
+      "startX": 240,
+      "startY": 250,
+      "endX": 240,
+      "endY": 300,
+      "color": "white"
+    },
+    {
+      "startX": 240,
+      "startY": 300,
+      "endX": 420,
+      "endY": 300,
+      "color": "white"
+    },
+    {
+      "startX": 160,
+      "startY": 200,
+      "endX": 320,
+      "endY": 200,
+      "color": "white"
+    },
+    {
+      "startX": 320,
+      "startY": 200,
+      "endX": 320,
+      "endY": 290,
+      "color": "white"
+    },
+    {
+      "startX": 320,
+      "startY": 290,
+      "endX": 420,
+      "endY": 290,
+      "color": "white"
+    },
+    {
+      "startX": 160,
+      "startY": 400,
+      "endX": 320,
+      "endY": 400,
+      "color": "white"
+    },
+    {
+      "startX": 320,
+      "startY": 400,
+      "endX": 320,
+      "endY": 350,
+      "color": "white"
+    },
+    {
+      "startX": 320,
+      "startY": 350,
+      "endX": 420,
+      "endY": 350,
+      "color": "white"
+    },
+    {
+      "startX": 160,
+      "startY": 430,
+      "endX": 560,
+      "endY": 430,
+      "color": "white"
+    },
+    {
+      "startX": 560,
+      "startY": 430,
+      "endX": 560,
+      "endY": 350,
+      "color": "white"
+    },
+    {
+      "startX": 560,
+      "startY": 350,
+      "endX": 500,
+      "endY": 350,
+      "color": "white"
+    },
+    {
+      "startX": 160,
+      "startY": 490,
+      "endX": 530,
+      "endY": 490,
+      "color": "white"
+    },
+    {
+      "startX": 530,
+      "startY": 490,
+      "endX": 530,
+      "endY": 360,
+      "color": "white"
+    },
+    {
+      "startX": 530,
+      "startY": 360,
+      "endX": 500,
+      "endY": 360,
+      "color": "white"
+    },
+    {
+      "startX": 530,
+      "startY": 190,
+      "endX": 530,
+      "endY": 300,
+      "color": "white"
+    },
+    {
+      "startX": 530,
+      "startY": 300,
+      "endX": 500,
+      "endY": 300,
+      "color": "white"
+    },
+    {
+      "startX": 830,
+      "startY": 370,
+      "endX": 1030,
+      "endY": 370,
+      "color": "white"
+    },
+    {
+      "startX": 830,
+      "startY": 230,
+      "endX": 860,
+      "endY": 230,
+      "color": "white"
+    },
+    {
+      "startX": 860,
+      "startY": 230,
+      "endX": 860,
+      "endY": 340,
+      "color": "white"
+    },
+    {
+      "startX": 860,
+      "startY": 340,
+      "endX": 830,
+      "endY": 340,
+      "color": "white"
+    },
+    {
+      "startX": 830,
+      "startY": 190,
+      "endX": 870,
+      "endY": 190,
+      "color": "white"
+    },
+    {
+      "startX": 870,
+      "startY": 190,
+      "endX": 870,
+      "endY": 360,
+      "color": "white"
+    },
+    {
+      "startX": 870,
+      "startY": 360,
+      "endX": 830,
+      "endY": 360,
+      "color": "white"
+    },
+    {
+      "startX": 830,
+      "startY": 380,
+      "endX": 890,
+      "endY": 380,
+      "color": "white"
+    },
+    {
+      "startX": 890,
+      "startY": 380,
+      "endX": 890,
+      "endY": 300,
+      "color": "white"
+    },
+    {
+      "startX": 890,
+      "startY": 300,
+      "endX": 1030,
+      "endY": 300,
+      "color": "white"
+    },
+    {
+      "startX": 830,
+      "startY": 390,
+      "endX": 900,
+      "endY": 390,
+      "color": "white"
+    },
+    {
+      "startX": 900,
+      "startY": 390,
+      "endX": 900,
+      "endY": 310,
+      "color": "white"
+    },
+    {
+      "startX": 900,
+      "startY": 310,
+      "endX": 1030,
+      "endY": 310,
+      "color": "white"
+    },
+    {
+      "startX": 830,
+      "startY": 400,
+      "endX": 910,
+      "endY": 400,
+      "color": "white"
+    },
+    {
+      "startX": 910,
+      "startY": 400,
+      "endX": 910,
+      "endY": 320,
+      "color": "white"
+    },
+    {
+      "startX": 910,
+      "startY": 320,
+      "endX": 1030,
+      "endY": 320,
+      "color": "white"
+    },
+    {
+      "startX": 830,
+      "startY": 410,
+      "endX": 920,
+      "endY": 410,
+      "color": "white"
+    },
+    {
+      "startX": 920,
+      "startY": 410,
+      "endX": 920,
+      "endY": 330,
+      "color": "white"
+    },
+    {
+      "startX": 920,
+      "startY": 330,
+      "endX": 1030,
+      "endY": 330,
+      "color": "white"
+    },
+    {
+      "startX": 750,
+      "startY": 400,
+      "endX": 740,
+      "endY": 400,
+      "color": "white"
+    },
+    {
+      "startX": 740,
+      "startY": 400,
+      "endX": 740,
+      "endY": 430,
+      "color": "white"
+    },
+    {
+      "startX": 740,
+      "startY": 430,
+      "endX": 930,
+      "endY": 430,
+      "color": "white"
+    },
+    {
+      "startX": 930,
+      "startY": 430,
+      "endX": 930,
+      "endY": 340,
+      "color": "white"
+    },
+    {
+      "startX": 930,
+      "startY": 340,
+      "endX": 1030,
+      "endY": 340,
+      "color": "white"
+    },
+    {
+      "startX": 750,
+      "startY": 390,
+      "endX": 730,
+      "endY": 390,
+      "color": "white"
+    },
+    {
+      "startX": 730,
+      "startY": 390,
+      "endX": 730,
+      "endY": 440,
+      "color": "white"
+    },
+    {
+      "startX": 730,
+      "startY": 440,
+      "endX": 940,
+      "endY": 440,
+      "color": "white"
+    },
+    {
+      "startX": 940,
+      "startY": 440,
+      "endX": 940,
+      "endY": 350,
+      "color": "white"
+    },
+    {
+      "startX": 940,
+      "startY": 350,
+      "endX": 1030,
+      "endY": 350,
+      "color": "white"
+    },
+    {
+      "startX": 750,
+      "startY": 380,
+      "endX": 720,
+      "endY": 380,
+      "color": "white"
+    },
+    {
+      "startX": 720,
+      "startY": 380,
+      "endX": 720,
+      "endY": 450,
+      "color": "white"
+    },
+    {
+      "startX": 720,
+      "startY": 450,
+      "endX": 950,
+      "endY": 450,
+      "color": "white"
+    },
+    {
+      "startX": 950,
+      "startY": 450,
+      "endX": 950,
+      "endY": 360,
+      "color": "white"
+    },
+    {
+      "startX": 950,
+      "startY": 360,
+      "endX": 1030,
+      "endY": 360,
+      "color": "white"
+    }
+  ]
+}

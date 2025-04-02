@@ -1,0 +1,78 @@
+{
+  "components": [
+    {
+      "type": "SevenSegment",
+      "x": 530,
+      "y": 250,
+      "color": "red",
+      "additionalData": {}
+    },
+    {
+      "type": "SwitchBar",
+      "x": 390,
+      "y": 260,
+      "color": null,
+      "additionalData": {
+        "numSwitches": 8
+      }
+    }
+  ],
+  "wires": [
+    {
+      "startX": 450,
+      "startY": 270,
+      "endX": 530,
+      "endY": 270,
+      "color": "white"
+    },
+    {
+      "startX": 450,
+      "startY": 280,
+      "endX": 530,
+      "endY": 280,
+      "color": "white"
+    },
+    {
+      "startX": 450,
+      "startY": 290,
+      "endX": 530,
+      "endY": 290,
+      "color": "white"
+    },
+    {
+      "startX": 450,
+      "startY": 300,
+      "endX": 530,
+      "endY": 300,
+      "color": "white"
+    },
+    {
+      "startX": 450,
+      "startY": 310,
+      "endX": 530,
+      "endY": 310,
+      "color": "white"
+    },
+    {
+      "startX": 450,
+      "startY": 320,
+      "endX": 530,
+      "endY": 320,
+      "color": "white"
+    },
+    {
+      "startX": 450,
+      "startY": 330,
+      "endX": 530,
+      "endY": 330,
+      "color": "white"
+    },
+    {
+      "startX": 450,
+      "startY": 340,
+      "endX": 530,
+      "endY": 340,
+      "color": "white"
+    }
+  ]
+}

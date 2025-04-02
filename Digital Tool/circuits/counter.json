@@ -1,0 +1,234 @@
+{
+  "components": [
+    {
+      "type": "SN74161",
+      "x": 280,
+      "y": 80,
+      "color": null,
+      "additionalData": {}
+    },
+    {
+      "type": "SwitchBar",
+      "x": 30,
+      "y": 120,
+      "color": null,
+      "additionalData": {
+        "numSwitches": 4
+      }
+    },
+    {
+      "type": "Clock",
+      "x": 40,
+      "y": 70,
+      "color": null,
+      "additionalData": {}
+    },
+    {
+      "type": "Switch",
+      "x": 50,
+      "y": 190,
+      "color": null,
+      "additionalData": {}
+    },
+    {
+      "type": "Switch",
+      "x": 50,
+      "y": 210,
+      "color": null,
+      "additionalData": {}
+    },
+    {
+      "type": "Switch",
+      "x": 50,
+      "y": 250,
+      "color": null,
+      "additionalData": {}
+    },
+    {
+      "type": "LedBar",
+      "x": 430,
+      "y": 110,
+      "color": "yellow",
+      "additionalData": {
+        "numLeds": 5
+      }
+    },
+    {
+      "type": "Switch",
+      "x": 40,
+      "y": 30,
+      "color": null,
+      "additionalData": {}
+    }
+  ],
+  "wires": [
+    {
+      "startX": 90,
+      "startY": 130,
+      "endX": 280,
+      "endY": 130,
+      "color": "white"
+    },
+    {
+      "startX": 90,
+      "startY": 140,
+      "endX": 280,
+      "endY": 140,
+      "color": "white"
+    },
+    {
+      "startX": 90,
+      "startY": 150,
+      "endX": 280,
+      "endY": 150,
+      "color": "white"
+    },
+    {
+      "startX": 90,
+      "startY": 160,
+      "endX": 280,
+      "endY": 160,
+      "color": "white"
+    },
+    {
+      "startX": 80,
+      "startY": 90,
+      "endX": 120,
+      "endY": 90,
+      "color": "white"
+    },
+    {
+      "startX": 120,
+      "startY": 90,
+      "endX": 120,
+      "endY": 120,
+      "color": "white"
+    },
+    {
+      "startX": 120,
+      "startY": 120,
+      "endX": 280,
+      "endY": 120,
+      "color": "white"
+    },
+    {
+      "startX": 90,
+      "startY": 200,
+      "endX": 140,
+      "endY": 200,
+      "color": "white"
+    },
+    {
+      "startX": 140,
+      "startY": 200,
+      "endX": 140,
+      "endY": 170,
+      "color": "white"
+    },
+    {
+      "startX": 140,
+      "startY": 170,
+      "endX": 280,
+      "endY": 170,
+      "color": "white"
+    },
+    {
+      "startX": 90,
+      "startY": 220,
+      "endX": 380,
+      "endY": 220,
+      "color": "white"
+    },
+    {
+      "startX": 380,
+      "startY": 220,
+      "endX": 380,
+      "endY": 170,
+      "color": "white"
+    },
+    {
+      "startX": 380,
+      "startY": 170,
+      "endX": 360,
+      "endY": 170,
+      "color": "white"
+    },
+    {
+      "startX": 90,
+      "startY": 260,
+      "endX": 400,
+      "endY": 260,
+      "color": "white"
+    },
+    {
+      "startX": 400,
+      "startY": 260,
+      "endX": 400,
+      "endY": 180,
+      "color": "white"
+    },
+    {
+      "startX": 400,
+      "startY": 180,
+      "endX": 360,
+      "endY": 180,
+      "color": "white"
+    },
+    {
+      "startX": 360,
+      "startY": 120,
+      "endX": 430,
+      "endY": 120,
+      "color": "white"
+    },
+    {
+      "startX": 360,
+      "startY": 130,
+      "endX": 430,
+      "endY": 130,
+      "color": "white"
+    },
+    {
+      "startX": 360,
+      "startY": 140,
+      "endX": 430,
+      "endY": 140,
+      "color": "white"
+    },
+    {
+      "startX": 360,
+      "startY": 150,
+      "endX": 430,
+      "endY": 150,
+      "color": "white"
+    },
+    {
+      "startX": 360,
+      "startY": 160,
+      "endX": 430,
+      "endY": 160,
+      "color": "white"
+    },
+    {
+      "startX": 80,
+      "startY": 40,
+      "endX": 170,
+      "endY": 40,
+      "color": "white"
+    },
+    {
+      "startX": 170,
+      "startY": 40,
+      "endX": 170,
+      "endY": 110,
+      "color": "white"
+    },
+    {
+      "startX": 170,
+      "startY": 110,
+      "endX": 280,
+      "endY": 110,
+      "color": "white"
+    }
+  ]
+}
