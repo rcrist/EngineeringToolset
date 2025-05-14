@@ -1,6 +1,7 @@
 # Engineering Tools
 
 Goals:
+ -  [X] Learn JavaScript Tutorial
  -  [X] Engineering Calculator Tool
  -  [X] Diagram Editor
  -  [X] Digital Tool
