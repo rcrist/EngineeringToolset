@@ -2,7 +2,7 @@
 
 Goals:
  -  [X] Engineering Calculator Tool
- - Diagram Tool
+ -  [X] Diagram Editor
  -  [X] Digital Tool
  - Analog Tool
  - RF & Microwave Tool
@@ -20,6 +20,10 @@ Usage:
 <h1>Engineering Calculator Tool</h1>
 
 ![Screenshot](Images/EngineeringCalculator.png)
+
+<h1>Diagram Editor</h1>
+
+![Screenshot](Images/DiagramEditor.png)
 
 <h1>Digital Tool</h1>
 
