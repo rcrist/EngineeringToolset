@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light-mode">
+    <div id="top-menu">
+        <label>Fill Color</label>
+        <input type="color" id="fillColorPicker" value="#000000">
+
+        <Label></Label>Border Color</button>
+        <input type="color" id="borderColorPicker" value="#000000">
+
+        <label>Border Width:</label>
+        <select id="borderWidthSelect" onchange="updateBorderWidth()">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5" selected>5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+        <button onclick="toggleTheme()">Toggle Theme</button>
+    </div>
+
+    <div id="ui_container">
+        <div id="left-menu">
+            <button onclick="addShape('rectangle')">Rectangle</button>
+            <button onclick="addShape('circle')">Circle</button>
+            <button onclick="addShape('triangle')">Triangle</button>
+            <button onclick="addShape('line')">Line</button>
+            <button onclick="addShape('text')">Text</button>
+            <button onclick="addShape('image')">Image</button>
+        </div>
+
+        <canvas id="canvas" width="500" height="500"></canvas>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
