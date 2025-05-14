@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+#left-menu {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 480px;
+    border: 1px solid black;
+    padding: 10px;
+    gap: 5px;
+}
+
+#canvas {
+    border: 1px solid black;
+}
